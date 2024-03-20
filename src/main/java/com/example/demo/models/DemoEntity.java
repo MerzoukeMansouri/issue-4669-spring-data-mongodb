@@ -17,7 +17,9 @@ public class DemoEntity {
     @Id
     private String id;
 
-    private WrapperModel<Set<DemoCharacteristicModel>> characteristic;
     private WrapperModel<Set<DemoNomenclatureModel>> nomenclature;
+
+    private WrapperModel<Set<DemoCharacteristicModel>> characteristic;
+
 
 }
